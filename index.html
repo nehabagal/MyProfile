@@ -4,22 +4,47 @@
 <head>
     <title> My Profile </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <style>
+        div, footer {
+            background-color: darkgrey;
+            text-align: center;
+            font-weight: bold;
+            font-size: medium;
+            font-family: 'Poppins', sans-serif;
+        }
+        #nav_bar{
+    text-decoration: none;
+    text-align: center;
+    font-weight:bold;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    background-color: aquamarine;
+}
+        iframe {
+            border-style: none;
+        }
+    </style>
 </head>
 
 <body>
-    <strong>
-        <i class="fa fa-user" aria-hidden="true"></i> &nbsp; Neha Bagal &nbsp;&nbsp;
-        <i class="fa fa-phone-square" aria-hidden="true"></i> &nbsp; 9657751771 &nbsp;&nbsp;
-        <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; nehabagal171@gmail.com &nbsp;&nbsp;
-    </strong>
+    <div>
+        <strong>
+            <i class="fa fa-user" aria-hidden="true"></i> &nbsp; Neha Bagal &nbsp;&nbsp; &nbsp;
+            <i class="fa fa-phone-square" aria-hidden="true"></i> &nbsp; 9657751771 &nbsp;&nbsp;&nbsp;
+            <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; nehabagal171@gmail.com &nbsp;&nbsp;
+        </strong>
+    </div>
     <br>
-    <nav>
-        <a href="#">Home</a> &nbsp;
+    <nav id="nav_bar">
+        <a href="home.html" target="MyFrame">Home</a> &nbsp;
         <a href="techStack.html" target="MyFrame">Tech Stack</a> &nbsp;
-        <a href=""> Education</a> &nbsp;
-        <a href=""> Projects</a>&nbsp;
-        <a href="">Hobbies</a>&nbsp;
-        <a href="">Personal</a>&nbsp;
+        <a href="education.html" target="MyFrame"> Education</a> &nbsp;
+        <a href="project.html" target="MyFrame"> Project</a>&nbsp;
+        <a href="hobbies.html" target="MyFrame">Hobbies</a>&nbsp;
+        <a href="personalDetails.html" target="MyFrame">Personal</a>&nbsp;
         <a href="">Others</a>
     </nav>
     <iframe name="MyFrame" height="600" width="1400"></iframe>
